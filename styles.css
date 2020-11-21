@@ -86,3 +86,10 @@ h1 {
     width: 100%;
     height: 200px;
 }
+
+.front p {
+    margin: 20px;
+    color: #401317;
+    text-align: left;
+    background-color: #DDDDDD;
+}
