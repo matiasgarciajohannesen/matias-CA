@@ -66,6 +66,15 @@ footer a:hover {
 .banner {
     display: flex;
     justify-content: center;
-
 }
 
+.front {
+    display: grid;
+    justify-content: center;
+    font-size: larger;
+    text-align: center;
+}
+
+h1 {
+    color: #401317;
+}
