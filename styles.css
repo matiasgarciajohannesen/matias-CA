@@ -60,3 +60,12 @@ footer a:hover {
     background: #dddddd;
     color: black;
 }
+
+/*frontpage*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+
+}
+
