@@ -121,3 +121,12 @@ h1 {
 .ecology img {
     width: 90%;
 }
+
+/*visit*/
+
+.hours li {
+    color: #401317;
+    text-align: center;
+    background-color: #DDDDDD;
+    list-style: none;
+}
