@@ -66,6 +66,11 @@ footer a:hover {
 .banner {
     display: flex;
     justify-content: center;
+
+}
+
+.banner img {
+    width: 100%;
 }
 
 .front {
@@ -134,6 +139,9 @@ h1 {
 .banner4 img {
     width: 100%;
 }
+
+
+/*get involved*/
 
 .banner5 img {
     width: 100%;
