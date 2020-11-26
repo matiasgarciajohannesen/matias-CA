@@ -81,6 +81,13 @@ footer a:hover {
     text-align: center;
 }
 
+.front2 {
+    display: grid;
+    justify-content: center;
+    font-size: larger;
+    text-align: center;
+}
+
 h1 {
     color: #401317;
 }
@@ -151,11 +158,22 @@ h1 {
 
 /*tablet*/
 
-@media (min-width:750px), (max-width:1080px) {
+@media (min-width:750px){
+
+    .front, .front2 {
+        display: grid;
+        grid-row: 1fr 1fr;
+    }
+
+}
+
+
+/*pc*/
+
+@media (min-width:992px) {
 
     .front {
         display: grid;
         grid-column: 1fr 1fr;
     }
-
 }
