@@ -39,6 +39,7 @@ footer {
     display: grid;
     justify-content: center;
     background-color: #401317;
+    margin-top: 50px;
 }
 
 footer li{
@@ -67,13 +68,19 @@ footer a:hover {
 
 .banner {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-image: url(/img/vr1.png);
+    height: 380px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 
 }
 
 .banner img {
     width: 100%;
 }
+
 
 .img2 {
     display: none;
@@ -84,16 +91,19 @@ footer a:hover {
     justify-content: center;
     font-size: larger;
     text-align: center;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 .front img {
     width: 300px;
 }
 
+.front h2 {
+    margin-top: 50px;
+}
 
 
-h1 {
+h2 {
     color: #401317;
 }
 
