@@ -75,19 +75,23 @@ footer a:hover {
     width: 100%;
 }
 
+.img2 {
+    display: none;
+}
+
 .front {
     display: grid;
     justify-content: center;
     font-size: larger;
     text-align: center;
+    margin: 30px;
 }
 
-.front2 {
-    display: grid;
-    justify-content: center;
-    font-size: larger;
-    text-align: center;
+.front img {
+    width: 300px;
 }
+
+
 
 h1 {
     color: #401317;
@@ -168,25 +172,36 @@ h1 {
 
     .explore {
         grid-column: 1;
+        margin-top: 50px;
+    }
+    .front img{
+        width: 300px;
     }
 
     .exhibition {
         grid-column: 2;
         grid-row: 1;
+        margin-top: 50px;
     }
 
     .visit {
         grid-row: 2;
         grid-column: 1;
+        margin: 50px 0;
     }
 
     .get-involved {
         grid-row: 2;
         grid-column: 2;
+        margin: 50px 0;
     }
 
-    .banner img {
-        
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
     }
 
 }
