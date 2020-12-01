@@ -69,7 +69,6 @@ footer a:hover {
 .banner {
     display: flex;
     flex-direction: column;
-    background-image: url(/img/vr1.png);
     height: 380px;
     background-repeat: no-repeat;
     color: white;
@@ -359,8 +358,9 @@ h1 {
 
 @media (min-width:992px) {
 
+    /*index*/
+
     .front {
-        display: grid;
-        grid-column: 1fr 1fr;
+        margin-top: 300px;
     }
 }
