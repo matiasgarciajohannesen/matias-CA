@@ -257,9 +257,53 @@ h2 {
         margin: 30px;
     }
 
-    .img3 {
+   .banner2 .img3 {
         height: 300px;
     }
+
+    
+    /*exhibition*/
+
+    .cosmology {
+        grid-row: 2;
+        grid-column: 2;
+        margin: 30px;
+    }
+
+   .evolution {
+        grid-row: 1;
+        grid-column: 1;
+        margin: 30px;
+    }
+
+    .biologi {
+        grid-row: 2;
+        grid-column: 1;
+        margin: 30px;
+    }
+
+    .robotics {
+        grid-row: 1;
+        grid-column: 2;
+        margin: 30px;
+    }
+
+    .ecology {
+        grid-row: 3;
+        grid-column: 1;
+        margin: 30px;
+    }
+
+    .banner3 .img4 {
+        height: 300px;
+    }
+
+
+    /*visit*/
+
+    
+
+
 }
 
 
