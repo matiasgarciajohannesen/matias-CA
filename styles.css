@@ -116,6 +116,10 @@ h2 {
     height: 200px;
 }
 
+.banner2 .imgpc {
+    display: none;
+}
+
 .front p {
     margin: 20px;
     color: #401317;
@@ -361,11 +365,15 @@ h1 {
     /*index*/
 
     .front {
-        margin-top: 300px;
+        margin-top: 50px;
     }
 
-    .img2 {
-        height: 700px;
+    .banner {
+        height: 600px;
+    }
+
+    .banner .img2 {
+        height: 600px;
     }
 
     .explore img {
@@ -386,5 +394,14 @@ h1 {
 
     /*explore*/
 
+    .banner2 .img3 {
+        display: none;
+    }
 
+    .banner2 .imgpc {
+        height: 400px;
+        display: table;
+    }
+
+    
 }
