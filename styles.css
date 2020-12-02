@@ -403,5 +403,29 @@ h1 {
         display: table;
     }
 
-    
+    .kids img {
+        height: 500px;
+        width: auto;
+    }
+    .info {
+        padding-top: 200px;
+    }
+
+    .teachers img {
+        height: 500px;
+        width: 370px;
+    }
+
+    .info2 {
+        padding-top: 200px;
+    }
+
+    .researchers img {
+        height: 500px;
+        width: 370px;
+    }
+
+    .info3 {
+        padding-top: 200px;
+    }
 }
