@@ -363,4 +363,28 @@ h1 {
     .front {
         margin-top: 300px;
     }
+
+    .img2 {
+        height: 700px;
+    }
+
+    .explore img {
+        width: 75%;
+    }
+
+    .visit img {
+        width: 75%;
+    }
+
+    .exhibition img {
+        width: 75%;
+    }
+
+    .get-involved img{
+        width: 75%;
+    }
+
+    /*explore*/
+
+
 }
