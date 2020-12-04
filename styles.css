@@ -216,7 +216,7 @@ h1 {
     /*header*/
 
     .logo img {
-        height: 80px;
+        height: 50px;
         width: auto;
     }
 
@@ -362,6 +362,11 @@ h1 {
 
 @media (min-width:992px) {
 
+    .logo img {
+        height: 50px;
+        width: auto;
+    }
+
     /*index*/
 
     .front {
@@ -431,5 +436,21 @@ h1 {
 
     /*exhibition*/
 
-    
+     .banner3 .img4 {
+        height: 400px;
+     }
+
+
+     /*visit*/
+
+     .banner4 img {
+         height: 400px;
+     }
+
+     .front2 {
+         margin-left: 300px;
+         margin-right: 300px;
+     }
+
+
 }
